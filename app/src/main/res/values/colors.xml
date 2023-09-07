@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fpt">#FF9100</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#293859</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
+
+
+
+
+    <color name="home">#1194AA</color>
+    <color name="calender">#C9379D</color>
+    <color name="scores">#FF9100</color>
+    <color name="utilities">#5B37B7</color>
+
+    <color name="home_20">#331194AA</color>
+    <color name="calender_20">#33D131A0</color>
+    <color name="scores_20">#33FF9100</color>
+    <color name="utilities_20">#335B37B7</color>
+    <color name="background">#335B37B7</color>
+    <color name="fpt_20">#4DFF5E00</color>
+
+
+</resources>

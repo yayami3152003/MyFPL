@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441598235196",
+    "project_id": "premium-portal-394604",
+    "storage_bucket": "premium-portal-394604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441598235196:android:fb47acf0b328d2be1b2939",
+        "android_client_info": {
+          "package_name": "com.example.fpoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441598235196-shbjo8sv975g084k1345groo2jg3612d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQCXo8QM3LQaf170TyPL1VbPXXxgsk-yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441598235196-shbjo8sv975g084k1345groo2jg3612d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

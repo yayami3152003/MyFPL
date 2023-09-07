@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">FPOLY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="tag_content">content</string>
+    <string name="tag_menu">menu</string>
+    <string name="icon_date_description" />
+    <string name="icon_time_description" />
+    <string name="icon_notify_description" />
+    <string name="icon_host_description" />
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Personal</item>
+        <item>High scores</item>
+        <item>Settings</item>
+        <item>About</item>
+    </array>
+    <declare-styleable name="DuoDrawerLayout">
+        <attr name="menu" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="contentScaleClosed" format="float" />
+        <attr name="clickToCloseScale" format="float" />
+        <attr name="contentScaleOpen" format="float" />
+        <attr name="menuScaleClosed" format="float" />
+        <attr name="menuScaleOpen" format="float" />
+        <attr name="menuAlphaClosed" format="float" />
+        <attr name="menuAlphaOpen" format="float" />
+        <attr name="marginFactor" format="float" />
+    </declare-styleable>
+    <declare-styleable name="DuoMenuView">
+        <attr name="header" format="reference" />
+        <attr name="footer" format="reference" />
+        <attr name="background" format="reference" />
+    </declare-styleable>
+
+    <style name="MyToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+</resources>

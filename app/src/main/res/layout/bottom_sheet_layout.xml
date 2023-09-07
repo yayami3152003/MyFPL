@@ -1,0 +1,227 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="School Dashboard IA Breakdown"
+            android:textColor="#000"
+            android:textSize="39sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Need to break down all the dashboard content info proper information architecture and make all content are fixed."
+        android:textColor="#A6000000"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+    <!-- Icon và tên Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Icon Date -->
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="22dp"
+            android:contentDescription="@string/icon_date_description"
+            android:src="@drawable/ic_date" />
+
+        <!-- Tên Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Date"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="20dp"
+            android:text="January 19"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Icon và tên Time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Icon Time -->
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/icon_time_description"
+            android:src="@drawable/ic_time" />
+        <!-- Tên Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Time"
+            android:textSize="14sp" />
+
+        <!-- Tên Time -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="8dp"
+            android:text="14:00PM - 15:00PM"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Icon và tên Notify Before -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Icon Notify Before -->
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/icon_notify_description"
+            android:src="@drawable/ic_notifications" />
+        <!-- Tên Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Notify Before"
+            android:textSize="14sp" />
+        <!-- Tên Notify Before -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="8dp"
+            android:text="15 Minutes"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Icon và tên Host -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Icon Host -->
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/icon_host_description"
+            android:src="@drawable/baseline_person_24" />
+
+        <!-- Tên Host -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Host "
+            android:textSize="14sp" />
+        <!-- Tên Notify Before -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="8dp"
+            android:text="Syamir Kasmiri "
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="25dp"
+            android:text="Guests (8) "
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/teacherNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="55dp"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium" />
+        <ImageView
+            android:id="@+id/imgTeacher"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="150dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/teacher" />
+
+        <!--       app:behavior_peekHeight="200dp"  RecyclerView để hiển thị danh sách giáo viên và học sinh -->
+
+        <TextView
+            android:id="@+id/teacherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="-18dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Chấn Nguyễn" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_student" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+
+        <!-- Adding keyframes to make the motion more dynamic -->
+        <KeyFrameSet>
+            <!-- Keyframe at 50% of the animation duration -->
+            <KeyAttribute
+                android:alpha="0.5"
+                motion:framePosition="50"
+                motion:motionTarget="@id/blueBee"
+                motion:transitionEasing="easeInOut" />
+
+            <!-- Keyframe at 70% of the animation duration -->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/blueBee"
+                motion:transitionEasing="easeInOut" />
+
+            <!-- Keyframe at 50% of the animation duration -->
+            <KeyAttribute
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                motion:framePosition="50"
+                motion:motionTarget="@id/whiteBee"
+                motion:transitionEasing="easeInOut" />
+
+            <!-- Keyframe at 70% of the animation duration -->
+            <KeyAttribute
+                android:scaleX="0"
+                android:scaleY="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/whiteBee"
+                motion:transitionEasing="easeInOut" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/backgroundLayout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleX="10"
+            android:scaleY="10"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:alpha="1"
+            android:text="Chinh phục tri thức cùng FPOLY"
+            android:textSize="18sp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/blueBee"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:alpha="0"
+            android:scaleX="0"
+            android:scaleY="0"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/whiteBee"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/backgroundLayout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/blueBee"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:alpha="1"
+            android:scaleX="1"
+            android:scaleY="1"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:transitionEasing="cubic(1,0,1,0)" />
+        <Constraint
+            android:id="@+id/whiteBee"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+</MotionScene>

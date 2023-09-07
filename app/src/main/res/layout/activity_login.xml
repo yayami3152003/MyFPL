@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".metmoi.activity.LoginActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="620dp"
+        android:minWidth="450dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/thumbnail"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FPT POLYTECHNIC"
+                android:textColor="#F26F21"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="24dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thực học - thực nghiệp"
+                android:textColor="#F26F21"
+                android:fontFamily="@font/poppins_semibold"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_rouned_full"
+            android:backgroundTint="#F26F21"
+            app:backgroundTint="@null"
+            android:id="@+id/btnChon"
+            android:text="Chọn cơ sở đào tạo"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="120dp"
+            />
+
+        <Button
+            android:id="@+id/btn_sign_in_width_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_rouned_full_boder_1"
+            app:backgroundTint="@null"
+            android:text="Đăng nhập với google"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
